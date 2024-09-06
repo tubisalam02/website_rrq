@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buku_tamu.css">
+    <link rel="icon" href="assets/logorrq.png" type="image/png">
+    <title>Hubungi Kami</title>
+</head>
+<body>
+    <div class="contact-container">
+        <h1 style="color: orange;">Hubungi Kami</h1>
+        <p>Tidak usah sungkan untuk menghubungi narahubung berikut atau kirim pesan menggunakan formulir di bawah ini.</p>
+
+        <form id="contactForm">
+            <label for="name">Nama (wajib):</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Surel (wajib):</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="submitForm()">Kirim Pesan</button>
+        </form>
+
+        <div class="contact-info">
+            <p><strong style="color: orange;">Contact Info:</strong></p>
+            <p>Street, Tasikmalaya, 4618, Indonesia</p>
+            <p>Email: diaz.tubisalam0205@gmail.com</p>
+            <p>No.Telp : 082218685105</p>
+        </div>
+
+        <div class="schedule">
+            <p><strong style="color: orange;">Jadwal Kerja:</strong></p>
+            <p>Senin - Jumat : 9:00 am – 5:00 pm</p>
+            <p>Sabtu - Minggu : Tutup</p>
+        </div>
+<br>
+        <div id="home">
+            <a href="index.html" class="btn">Go back to Home</a>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

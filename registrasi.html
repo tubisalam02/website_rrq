@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrasi.css">
+    <link rel="icon" href="assets/logorrq.png" type="image/png">
+    <title>Tournament Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: orange;">Tournament Registration</h1>
+        <form id="registrationForm">
+            <label for="name">Team Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email (Manajer/Captain):</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="email">NickName Captain:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="team">Asal Daerah(Lengkap):</label>
+            <input type="text" id="team" name="team" required>
+
+            <label for="game">Game Tournament:</label>
+            <select id="game" name="game" required>
+                <option value="Mobile Legends">Mobile Legends</option>
+                <option value="Free Fire">Free Fire</option>
+                <option value="PUBG Mobile">PUBG Mobile</option>
+                <option value="Apex Legend">Apex Legend</option>
+                <option value="Clash of Clans">Clash of Clans</option>
+                <!-- Add more game options as needed -->
+            </select>
+
+            <button type="button" onclick="submitForm()">Register</button>
+        </form>
+        <div id="successMessage" class="hidden">
+            <p>Registration successful! Good luck in the tournament.</p>
+        </div>
+        <br>
+        <div id="home">
+            <a href="index.html" class="btn">Go back to Home</a>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

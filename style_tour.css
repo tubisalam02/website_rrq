@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: orange;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+#diaz_footer {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+#about {
+    background-color: silver; /* Ganti dengan kode warna yang diinginkan */
+    padding: 20px; /* Optional: Menambahkan padding untuk memberikan ruang di sekitar konten */
+}
+#registration {
+    background-color: silver; /* Ganti dengan kode warna yang diinginkan */
+    padding: 20px; /* Optional: Menambahkan padding untuk memberikan ruang di sekitar konten */
+}
+
+/* ... (Gaya CSS lainnya) ... */

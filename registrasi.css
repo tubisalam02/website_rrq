@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.hidden {
+    display: none;
+}
+
+#successMessage {
+    color: green;
+    margin-top: 20px;
+}
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+
+/* Media Query untuk responsif di perangkat seluler */
+@media screen and (max-width: 600px) {
+    .contact-container {
+        margin: 20px;
+    }
+}
